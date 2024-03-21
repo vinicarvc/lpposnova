@@ -68,7 +68,7 @@ a {
 }
 
 .logo-desk img {
-	margin-left: 60px;
+	margin-left: 10px;
 	width: 130px;
 	height: 130px;
 }
@@ -77,7 +77,7 @@ a {
 	text-align: center;
 	flex-grow: 1;
 	position: relative;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 .title-desk::after {
@@ -93,6 +93,18 @@ a {
 .login-desk {
 	display: flex;
 	align-items: center;
+}
+
+.button-orange-login{
+	background-color: var(--orange);
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.button-orange-login:hover{
+	transform: scale(1.1);
+	transition: all 0.5s;
+	background-color: #ff8b38
 }
 
 .login-desk1, .login-desk2 {
@@ -1132,6 +1144,14 @@ form select {
     font-weight: bold;
     font-size: 80px;
 }
+
+.whats {
+    position: fixed;
+    bottom: 75px;
+    right: 50px;
+    z-index: 9999;
+}
+
 
 
 
